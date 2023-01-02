@@ -1,0 +1,36 @@
+/* Write your code here. */
+.lc-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lc-inner-container {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.input-phrase-container {
+  display: flex;
+  flex-direction: column;
+}
+.lc-input {
+  color: #e4e7eb;
+  font-weight: bold;
+  background-color: transparent;
+  border-color: #e4e7eb;
+  border-style: solid;
+  padding: 6px;
+  width: 420px;
+}
+.lc-count {
+  color: #219a6f;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 180px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  text-align: center;
+}
